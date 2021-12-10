@@ -10,7 +10,6 @@ namespace Day2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            
             IEnumerable<string> input = File.ReadLines("Input.txt");
             
             Console.WriteLine("Part 1: " + Part1(input));
